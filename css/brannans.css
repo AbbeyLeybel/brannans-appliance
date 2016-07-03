@@ -21,6 +21,9 @@ header {
     .contact > br {
         display: none;
     }
+    div.img-main {
+        padding-left: 0;
+    }
 }
 header span {
     font-size: 40%;
@@ -49,9 +52,6 @@ img.img-main {
     padding: 0;
     border-radius: 10px;
     width: 100%;
-}
-div.img-main {
-    padding-left: 0;
 }
 .features {
     background-color: rgba(200, 200, 200, 1);
