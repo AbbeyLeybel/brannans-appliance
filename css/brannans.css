@@ -126,6 +126,17 @@ img.img-main {
 .text {
     padding-top: 10px;
 }
+/* Media Apperances XS */
+.logo-xs {
+    width: 100%;
+    max-width: 85px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#xs-featured > .col-xs-2 {
+    padding: 2% 2% 2% 0;
+}
 /* Main Content Styling */
 .content {
     background-color: rgba(239, 239, 239, 0.6);
@@ -144,12 +155,16 @@ label:hover {
     color: #747474;
     background-color: rgb(216, 216, 216);
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
+}
+input[type="radio"] + label {
+    width: 100%;
 }
 input[type="radio"]:checked + label {
     color: #434343;
     background-color: rgb(200, 200, 200);
     box-shadow: none;
+    width: 100%;
 }
 .content li {
     border-radius: 10px 0 0 10px;
@@ -195,7 +210,6 @@ h4, h5 {
 .mailto, .mailto:hover,
 .phone {
     font-size: 110%;
-    color: #434343;
     padding-left: 5.5%;
 }
 hr {
