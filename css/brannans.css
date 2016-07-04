@@ -137,6 +137,12 @@ img.img-main {
 #xs-featured > .col-xs-2 {
     padding: 2% 2% 2% 0;
 }
+#as-seen {
+    text-align: center;
+    font-size: 115%;
+    padding: 1% 0 0 0;
+    margin: 0;
+}
 /* Main Content Styling */
 .content {
     background-color: rgba(239, 239, 239, 0.6);
