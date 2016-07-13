@@ -133,6 +133,7 @@ img.img-main {
 }
 /* Main Content Styling */
 .content {
+    font-size: 110%;
     background-color: rgba(239, 239, 239, 0.6);
     font-family: sans-serif;
     padding-bottom: 2px;
@@ -198,9 +199,11 @@ h3:first-child {
 h4, h5 {
     font-weight: bold;
     margin-top: 5%;
+    font-size: 105%;
 }
-.mailto, .mailto:hover,
-.phone {
+.mailto,
+.phone,
+.facebook {
     font-size: 110%;
     padding-left: 5.5%;
 }
